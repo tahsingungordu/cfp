@@ -16,12 +16,12 @@
 			<div class="file-menu">
 				<div class="menu-title">Working Files</div>
 				<ul>
-					<li><a href="http://localhost.dev/cfp/personal/" target="editor" class="active">personal<span>.json</span></a></li>
-					<li><a href="http://localhost.dev/cfp/avatar/" target="editor">avatar<span>.jpg</span></a></li>
+					<li><a href="<?php echo site_url() ?>/personal/" target="editor" class="active">personal<span>.json</span></a></li>
+					<li><a href="<?php echo site_url() ?>/avatar/" target="editor">avatar<span>.jpg</span></a></li>
 				</ul>
 			</div>
 			<div class="file-frame">
-				<iframe id="iframe" name="editor" src="http://localhost.dev/cfp/personal/" onLoad="$.frameLoad();"></iframe>
+				<iframe id="iframe" name="editor" src="<?php echo site_url() ?>/personal/" onLoad="$.frameLoad();"></iframe>
 			</div>
 		</div>
 	</main>
