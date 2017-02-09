@@ -47,15 +47,14 @@ $options[]      = array(
     ),
 
     array(
-      'id'        => 'image_select_1',
+      'id'        => 'skin',
       'type'      => 'image_select',
-      'title'     => 'Image Select',
+      'title'     => 'Select Skin',
       'options'   => array(
-        'value-1' => 'http://codestarframework.com/assets/images/placeholder/100x80-2ecc71.gif',
-        'value-2' => 'http://codestarframework.com/assets/images/placeholder/100x80-e74c3c.gif',
-        'value-3' => 'http://codestarframework.com/assets/images/placeholder/100x80-ffbc00.gif',
-        'value-4' => 'http://codestarframework.com/assets/images/placeholder/100x80-3498db.gif',
-        'value-5' => 'http://codestarframework.com/assets/images/placeholder/100x80-555555.gif',
+        'theme-dark'  => get_template_directory_uri() . '/assets/images/skins/theme-dark.jpg',
+        'theme-blues' => get_template_directory_uri() . '/assets/images/skins/theme-blues.jpg',
+        'theme-light' => get_template_directory_uri() . '/assets/images/skins/theme-light.jpg',
+        'theme-pinks' => get_template_directory_uri() . '/assets/images/skins/theme-pinks.jpg',
       ),
     ),
 

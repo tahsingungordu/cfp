@@ -50,3 +50,11 @@ function cfp_theme_scripts() {
 
 }
 add_action( 'wp_enqueue_scripts', 'cfp_theme_scripts' );
+
+/**
+ * Add specific CSS class by filter.
+ */
+add_filter( 'body_class', function( $classes ) {
+	global $general_options;
+	return array_merge( $classes, array( $general_options['skin'] ) );
+} );

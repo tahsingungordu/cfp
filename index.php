@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<body id="desktop">
+<body id="desktop" <?php body_class(); ?>>
 	<main class="editor">
 		<div class="editor-header">
 			<div class="action-buttons">
