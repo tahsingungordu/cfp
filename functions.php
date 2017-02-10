@@ -38,6 +38,13 @@ if ( file_exists( get_template_directory() . '/libs/cmb2/init.php' ) ) {
 require_once get_template_directory() .'/libs/codestar-framework/cs-framework.php';
 
 /**
+ * Implement the helper custom functions in WP.
+ *
+ * @since CFP 1.0
+ */
+include_once get_template_directory() . '/inc/custom-functions.php';
+
+/**
  * Implement the custom meta boxes in post.
  *
  * @since CFP 1.0
