@@ -42,8 +42,6 @@ function cfp_education_custom_init() {
 			'public' => true,
 			'supports' => array(
 				'title',
-				'editor',
-				'thumbnail',
 			),
 			'menu_icon' => 'dashicons-book',
 			'rewrite'         => array(

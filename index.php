@@ -16,8 +16,9 @@
 			<div class="file-menu">
 				<div class="menu-title">Working Files</div>
 				<ul>
-					<li><a href="<?php echo site_url() ?>/personal/" target="editor" class="active">personal<span>.json</span></a></li>
 					<li><a href="<?php echo site_url() ?>/avatar/" target="editor">avatar<span>.jpg</span></a></li>
+					<li><a href="<?php echo site_url() ?>/personal/" target="editor" class="active">personal<span>.json</span></a></li>
+					<li><a href="<?php echo site_url() ?>/educations/" target="editor" class="active">educations<span>.json</span></a></li>
 				</ul>
 			</div>
 			<div class="file-frame">
