@@ -15,14 +15,19 @@
 		<div class="editor-frame">
 			<div class="file-menu">
 				<div class="menu-title">Working Files</div>
+				<?php
+					$page_avatar = get_page_by_path('avatar');
+					$page_personal = get_page_by_path('personal');
+					$page_educations = get_page_by_path('educations');
+				?>
 				<ul>
-					<li><a href="<?php echo site_url() ?>/avatar/" target="editor">avatar<span>.jpg</span></a></li>
-					<li><a href="<?php echo site_url() ?>/personal/" target="editor" class="active">personal<span>.json</span></a></li>
-					<li><a href="<?php echo site_url() ?>/educations/" target="editor" class="active">educations<span>.json</span></a></li>
+					<li><a href="<?php echo get_permalink($page_avatar->ID); ?>" target="editor">avatar<span>.jpg</span></a></li>
+					<li><a href="<?php echo get_permalink($page_personal->ID); ?>" target="editor" class="active">personal<span>.json</span></a></li>
+					<li><a href="<?php echo get_permalink($page_educations->ID); ?>" target="editor">educations<span>.json</span></a></li>
 				</ul>
 			</div>
 			<div class="file-frame">
-				<iframe id="iframe" name="editor" src="<?php echo site_url() ?>/personal/" onLoad="$.frameLoad();"></iframe>
+				<iframe id="iframe" name="editor" src="<?php echo get_permalink($page_avatar->ID); ?>" onLoad="$.frameLoad();"></iframe>
 			</div>
 		</div>
 	</main>
