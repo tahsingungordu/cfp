@@ -27,7 +27,7 @@
 				</ul>
 			</div>
 			<div class="file-frame">
-				<iframe id="iframe" name="editor" src="<?php echo get_permalink($page_avatar->ID); ?>" onLoad="$.frameLoad();"></iframe>
+				<iframe id="iframe" name="editor" src="<?php echo get_permalink($page_personal->ID); ?>" onLoad="$.frameLoad();"></iframe>
 			</div>
 		</div>
 	</main>
