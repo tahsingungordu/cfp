@@ -31,21 +31,6 @@ $options[]      = array(
   // begin: fields
   'fields'      => array(
 
-    // begin: a field
-    array(
-      'id'      => 'text_1',
-      'type'    => 'text',
-      'title'   => 'Text',
-    ),
-    // end: a field
-
-    array(
-      'id'      => 'color_picker_1',
-      'type'    => 'color_picker',
-      'title'   => 'Color Picker',
-      'default' => '#3498db',
-    ),
-
     array(
       'id'        => 'skin',
       'type'      => 'image_select',
@@ -56,18 +41,6 @@ $options[]      = array(
         'theme-light' => get_template_directory_uri() . '/assets/images/skins/theme-light.jpg',
         'theme-pinks' => get_template_directory_uri() . '/assets/images/skins/theme-pinks.jpg',
       ),
-    ),
-
-    array(
-      'type'    => 'notice',
-      'class'   => 'info',
-      'content' => 'This is info notice field for your highlight sentence.',
-    ),
-
-    array(
-      'id'      => 'background_1',
-      'type'    => 'background',
-      'title'   => 'Background',
     ),
 
   ), // end: fields
@@ -183,33 +156,6 @@ $options[] = array(
 		),
 
 	)
-);
-
-// ------------------------------
-// donate                       -
-// ------------------------------
-$options[]   = array(
-  'name'     => 'donate_section',
-  'title'    => 'Donate',
-  'icon'     => 'fa fa-heart',
-  'fields'   => array(
-
-    array(
-      'type'    => 'heading',
-      'content' => 'You Guys!'
-    ),
-
-    array(
-      'type'    => 'content',
-      'content' => 'If you want to see more functions and features for this framework, you can buy me a coffee. I need a lot of it when I am creating new stuff for you. Thank you in advance.',
-    ),
-
-    array(
-      'type'    => 'content',
-      'content' => '<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=56MAQNCNELP8J" target="_blank"><img src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" alt="Donate" /></a>',
-    ),
-
-  )
 );
 
 // ------------------------------
